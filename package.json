@@ -1,0 +1,20 @@
+{
+  "name": "nft_transfer_script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sufiyan",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.14",
+    "ethers": "^5.7.1",
+    "opensea-js": "^4.0.10",
+    "web3": "^1.8.0"
+  },
+  "resolutions": {
+    "@0x/utils": "https://github.com/ProjectOpensea/0x-tools/raw/provider-patch/utils/0x-utils-6.5.0.tgz"
+  }
+}
